@@ -1,0 +1,13 @@
+title: BLOGari
+theme: jekyll-theme-architect
+repository: anderfrago/blogari
+markdown: kramdown
+baseurl: /blogari
+author:
+  name: Ander Frago Landa
+  url: https://anderfrago.github.io
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
+  
+      
