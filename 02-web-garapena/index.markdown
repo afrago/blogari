@@ -1,13 +1,13 @@
 ---
-layout: default
+layout: page
 title: Desarrollo Web | Introducción
-nav_order: 2
+nav_order: 0
 description: "Desarrollo Web - Cuatrovientos."
 permalink: /02-web-garapena
 ---
 
 # 00 Presentación
-{: .my-fs-7 }
+{:.my4Vientos-title}
 
 [dw_Programación - Unidad 0](https://drive.google.com/file/d/1MdWMDiEBChZOwydhZ2wIM0J5pSK6ugxx/view?usp=sharing)
 {: .my-alert-info }
@@ -17,7 +17,7 @@ permalink: /02-web-garapena
 {: .warning }
 
 # 01 Introducción a PHP
-{: .my-fs-7 }
+{:.my4Vientos-title}
 
 ## Apuntes: Preparando el entorno 
 {: .alert .my-alert-primary }

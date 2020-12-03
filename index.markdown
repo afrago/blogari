@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 ---
 # Nor naiz
-{:.no_toc}
+{:.my4Vientos-title}
 
 Kaixo, Ander Frago Landa naiz 👨‍💻
 
@@ -17,14 +17,14 @@ Espero dut gustokoa izatea.
  [Idatzidazu helbide honetara](mailto:nau_frago@cuatrovientos.org)
 
 ## Lanbide Heziketako zikloak
-{:.no_toc}
+{:.my4Vientos-level}
 
 
 ### Plataforma anitzeko aplikazioen garapena
 
  1. mailan  
     -   [Garapen inguruneak](https://sites.google.com/cuatrovientos.org/entornos-de-desarrollo)
-    -   Sistema informatikoa
+    -   [Sistema informatikoa](https://drive.google.com/drive/folders/1HUj-tu_bUuMlVlhQaLg-opHXobuIPtdp?usp=sharing)
  2. mailan  
     -   [Web garapena](https://sites.google.com/cuatrovientos.org/desarrollo-web) 
     -   [Interfazeen garapena](https://sites.google.com/cuatrovientos.org/desarrollo-interfaces) 
