@@ -6,23 +6,22 @@ description: "Desarrollo Web - Cuatrovientos."
 permalink: /dw-symfony
 ---
 
-# 03 Symfony Framework
+# Symfony Framework
 {:.my4Vientos-title}
 
-## Apuntes: Symfony 
+## EV02 Proiektu integratzailea
 {: .alert .my-alert-primary }
 
-[EV02 Teoría Symfony](...)
+[EV02 Symfony apunteak](...)
 {: .my-alert-title}
 
-## EV02 Proyecto integrador:
-{: .alert .my-alert-primary }
-Artean Bolsa de empleo
-{: .my-alert-title}
+## Artean, lan poltsa
+{: .my-alert-primary }
 
-[Proyecto en GitHub](https://github.com/AnderFrago/artean-bolsa-empleo)
+
+[Proiektua GitHuben](https://github.com/AnderFrago/artean-bolsa-empleo)
 {: .my-alert-title}
-[Documentación](https://github.com/anderfrago/artean-bolsa-empleo/blob/master/dw_EV02_Artean_BolsaEmpleo-sym44.pdf)
+[Dokumentazioa](https://github.com/anderfrago/artean-bolsa-empleo/blob/master/dw_EV02_Artean_BolsaEmpleo-sym44.pdf)
 {: .my-alert-title}
-[Tarjetas Kanban](https://github.com/AnderFrago/artean-bolsa-empleo/projects/2#card-30720234)
+[Kanban txartelak](https://github.com/AnderFrago/artean-bolsa-empleo/projects/2#card-30720234)
 {: .my-alert-title}

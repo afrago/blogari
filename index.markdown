@@ -11,7 +11,8 @@ Kaixo, Ander Frago Landa naiz 👨‍💻
 Orri honetan, lanbide heziketako zikloetan ematen ditudan edukien bilduma egiten dut. Hauek dira zikloak: plataforma anitzeko aplikazioen garapena eta sistema informatikoen eta sareen administrazioa.
 
 Espero dut gustokoa izatea.
-❤
+<span style="color:red">❤</span>
+
 
 **Iradokizunak ongi etorriak dira!**
  [Idatzidazu helbide honetara](mailto:nau_frago@cuatrovientos.org)
@@ -21,6 +22,7 @@ Espero dut gustokoa izatea.
 
 
 ### Plataforma anitzeko aplikazioen garapena
+{:.my4Vientos-subtitle }
 
  1. mailan  
     -   [Garapen inguruneak](https://sites.google.com/cuatrovientos.org/entornos-de-desarrollo)
@@ -31,7 +33,7 @@ Espero dut gustokoa izatea.
     -   [Prozezu eta zerbitzuen garapena](https://sites.google.com/cuatrovientos.org/prog-servicios-procesos) 
 
 ### Sistema informatikoen eta sareen administrazioa
-
+{:.my4Vientos-subtitle }
  1. mailan  
     -   [Sistema eragileen ezartzea](https://sites.google.com/cuatrovientos.org/implantacion-sistem-operativos)
  2. mailan  

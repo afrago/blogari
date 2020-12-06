@@ -1,18 +1,28 @@
 ---
 layout: page
 title: Artean 
-description: "Bolsa de empleo - Cuatrovientos."
-permalink: /artean-bolsa-empleo
+description: "Lan poltsa - Cuatrovientos."
+permalink: /artean-lan-poltsa
 ---
 
-# Artean, bolsa de empleo
+# Artean, lan poltsa
 {:.my4Vientos-title}
 
-Proyecto realizado a lo largo del ciclo de Desarrollo de Aplicaciones Multiplataforma.
-El temario es repartido entre varias asignaturas de primer y segundo curso.
-- Entornos de desarrollo: Diagramas UML.
-- Desarrollo de interfaces: Bootstrap, Sass, jQuery.
-- Desarrollo web: versión inicial PHP y versión avanzada Symfony
 
-El alumnado integra en un propio proyecto los aprendizaje teoricos adquiridos. 
-Este proyecto es utilizado de guía, a medida que se van avanzando en los conceptos de la bolsa de empleo se espera que el alumnado incorpore estas mismas ideas en su propio proyecto integrador.
+Plataforma anitzeko aplikazioen garapen-zikloan egindako proiektua.
+Proiektuaren garapenerako beharrezkoak diren edukiak lehen eta bigarren mailako zenbait irakasgairen artean banatzen da.
+- Garapen-inguruneak: UML diagramak.
+- Interfazeak garatzea: Bootstrap, Sass, jQuery.
+- Web-garapena: PHP hasierako bertsioa eta Symfony bertsio aurreratua.
+
+Ikasleek proiektu batean integratzen dituzte ikasitako gai teorikoak.
+Proiektu hau gida gisa erabiltzen da, lan poltsaren garapenean aurrera egin ahala, ikasleek ideia horiek beren proiektu integratzailean gehitzea espero da.
+
+
+<div class="container ">
+    <div class="row">
+        <div class="col-4 mx-auto">
+            <img src="{{ 'assets/images/artean-removebg.png' }}" >
+        </div>
+    </div>
+</div>

@@ -2,7 +2,12 @@
 
 body {
    @include gradient(to top left , $list2);
+   a {
+    color: $my-link-color !important;
+  }
 }
+
+
 
 
 .my4Vientos-header {
@@ -10,12 +15,13 @@ body {
    background-size:cover;
    a{
     padding-left: 15%;
+
    }
 }
 .my4Vientos-subject { 
 
   h1.my4Vientos-title {
-    color: darken($my-secondary-color, $amount: 30%);
+    color: darken($my-primary-color, $amount: 30%);
     font-family: 'Open Sans', sans-serif;
   }
 }
@@ -24,17 +30,18 @@ body {
   display: flex;
   align-items: center;
   flex-direction: row;
+  color: $my-primary-color;
 
   img.my4Vientos-img{
     max-width: 5rem;
     padding: 1rem;
   }
-  h3.my4Vientos-subtitle {
-    float:none;
-    text-align: left;
-    font-style: italic;
-    color: lighten($my-secondary-color, $amount: 20%);
-  }
+}
+.my4Vientos-subtitle {
+  float:none;
+  text-align: left;
+  font-size: large;
+  color: darken($my-primary-color, $amount: 20%);
 }
 //
 // The basic two column layout
@@ -46,6 +53,8 @@ body {
 
 
 .sidebar-sticky {
+  background-image: url('./../../images/sidebar-bg.jpg'); 
+  background-size:cover;
 
   align-items: flex-start;
 
@@ -67,7 +76,7 @@ body {
       font-size: large;
       color: $nav-child-link-color!important;
       &:hover  {
-        color: darken($color: $nav-child-link-color, $amount: 80%) !important;
+        color: lighten($color: $my-secondary-color, $amount: 80%) !important;
       }
     }   
   }
