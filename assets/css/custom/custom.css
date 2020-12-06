@@ -13,36 +13,36 @@ body a {
   color: #521a15 !important;
 }
 
-/* line 13, ../../../_sass/custom/_mylayout.scss */
+/* line 11, ../../../_sass/custom/_mylayout.scss */
 .my4Vientos-header {
   background-image: url("./../../images/header-bg.png");
   background-size: cover;
 }
-/* line 16, ../../../_sass/custom/_mylayout.scss */
+/* line 14, ../../../_sass/custom/_mylayout.scss */
 .my4Vientos-header a {
   padding-left: 15%;
 }
 
-/* line 23, ../../../_sass/custom/_mylayout.scss */
+/* line 21, ../../../_sass/custom/_mylayout.scss */
 .my4Vientos-subject h1.my4Vientos-title {
   color: black;
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 28, ../../../_sass/custom/_mylayout.scss */
+/* line 26, ../../../_sass/custom/_mylayout.scss */
 .my4Vientos-level {
   display: flex;
   align-items: center;
   flex-direction: row;
   color: #3D4D4D;
 }
-/* line 35, ../../../_sass/custom/_mylayout.scss */
+/* line 32, ../../../_sass/custom/_mylayout.scss */
 .my4Vientos-level img.my4Vientos-img {
   max-width: 5rem;
   padding: 1rem;
 }
 
-/* line 40, ../../../_sass/custom/_mylayout.scss */
+/* line 37, ../../../_sass/custom/_mylayout.scss */
 .my4Vientos-subtitle {
   float: none;
   text-align: left;
@@ -53,7 +53,7 @@ body a {
 /*
  * Sidebar
  */
-/* line 55, ../../../_sass/custom/_mylayout.scss */
+/* line 52, ../../../_sass/custom/_mylayout.scss */
 .sidebar-sticky {
   background-image: url("./../../images/sidebar-bg.jpg");
   background-size: cover;
@@ -68,17 +68,17 @@ body a {
   overflow-y: auto;
   /* Scrollable contents if viewport is shorter than content. */
 }
-/* line 71, ../../../_sass/custom/_mylayout.scss */
+/* line 68, ../../../_sass/custom/_mylayout.scss */
 .sidebar-sticky .list-group-item {
   background-color: transparent !important;
   border: 0ch;
 }
-/* line 75, ../../../_sass/custom/_mylayout.scss */
+/* line 72, ../../../_sass/custom/_mylayout.scss */
 .sidebar-sticky .list-group-item .nav-link {
   font-size: large;
   color: #101414 !important;
 }
-/* line 78, ../../../_sass/custom/_mylayout.scss */
+/* line 75, ../../../_sass/custom/_mylayout.scss */
 .sidebar-sticky .list-group-item .nav-link:hover {
   color: white !important;
 }
