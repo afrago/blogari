@@ -29,10 +29,13 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light  my4Vientos-header" aria-label="header">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>  
-    <a class="navbar-brand" href="/blogari/"><h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
+    </button>
+    <a class="navbar-brand" href="/blogari/">
+      <h1>{{ site.title | default: site.github.repository_name }}</h1>
+    </a>
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
@@ -44,28 +47,28 @@
 
   <div class="container-fluid">
     <div class="row my4Vientos-subject">
-      <aside class="col-4 col-md-2  sidebar-sticky  d-none d-sm-block" >
+      <aside class="col-4 col-md-2  sidebar-sticky  d-none d-sm-block">
 
         <nav class="navbar navbar-expand-lg navbar-light " aria-label="sidebar">
-        
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="list-group mr-auto">
               <li class="list-group-item">
-                <a class="nav-link" href="/blogari/">                  
+                <a class="nav-link" href="/blogari/">
                   <div class="d-none d-sm-block">
                     <span data-feather="home"></span>
                     Ni neu
-                  </div> 
+                  </div>
                   <div class="d-block d-sm-none d-md-none d-lg-none d-xl-none">
                     <span data-feather="home"></span>
-                  </div> 
+                  </div>
                 </a>
               </li>
               <li class="list-group-item">
                 <a class="nav-link" href="http://linkedin.com/in/ander-f-l">
                   <div class="d-none d-sm-block">
-                        <span data-feather="linkedin"></span>
-                        CV
+                    <span data-feather="linkedin"></span>
+                    CV
                   </div>
                   <div class="d-block d-sm-none d-md-none d-lg-none d-xl-none">
                     <span data-feather="linkedin"></span>
@@ -73,59 +76,80 @@
                 </a>
               </li>
               <li class="list-group-item">
-                <a class="nav-link" href="https://afrago.github.io/dl-upna-face-recognition/">
-                  <div class="d-none d-sm-block">
-                        <span data-feather="user"></span>
-                        Ikaskutza sakona
-                  </div>
-                  <div class="d-block d-sm-none d-md-none d-lg-none d-xl-none">
-                    <span data-feather="user"></span>
-                  </div>
-                </a>
-              </li>
-              <li class="list-group-item">
                 <a class="nav-link" href="http://github.com/anderfrago">
                   <div class="d-none d-sm-block">
-                        <span data-feather="github"></span>
-                        Github
+                    <span data-feather="github"></span>
+                    Github anderfrago
                   </div>
                   <div class="d-block d-sm-none d-md-none d-lg-none d-xl-none">
                     <span data-feather="github"></span>
                   </div>
                 </a>
               </li>
-              <li class="list-group-item">
-                <a class="nav-link" href="artean-lan-poltsa">
-                  <div class="d-none d-sm-block">
+              <li class=" list-group-item dropdown ">
+                <div class="d-none d-sm-block">
+                  <a class="  nav-link  dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <span data-feather="archive"> </span> Proiektuak
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="artean-lan-poltsa">
+                      <div class="d-none d-sm-block">
                         <span data-feather="archive"></span>
                         Artean
-                  </div>
-                  <div class="d-block d-sm-none d-md-none d-lg-none d-xl-none">
-                    <span data-feather="archive"></span>
-                  </div>
-                </a>
-              </li>
-              <li class=" list-group-item dropdown ">
-                 <div class="d-none d-sm-block">
-                    <a class="  nav-link  dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <span data-feather="globe"> </span> Web garapena
+                      </div>
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="dw-php">PHP</a>
-                      <a class="dropdown-item" href="dw-symfony">Symfony</a>
-                    </div>
-                 </div>
-                 <div class="d-block d-sm-none d-md-none d-lg-none d-xl-none">
-                    <a class="  nav-link  dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <span data-feather="globe"> </span> 
+                    <a class="dropdown-item" href="where-is-my-car">
+                      <div class="d-none d-sm-block">
+                        <span data-feather="map"></span>
+                        Where is my car
+                      </div>
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="dw-php">PHP</a>
-                      <a class="dropdown-item" href="dw-symfony">Symfony</a>
-                    </div>
-                 </div>
+                    <a class="dropdown-item" href="ionic-sound-recorder">
+                      <div class="d-none d-sm-block">
+                        <span data-feather="music"></span>
+                        Sound recorder
+                      </div>
+                    </a>
+                    <a class="dropdown-item" href="https://afrago.github.io/dl-upna-face-recognition/">
+                      <div class="d-none d-sm-block">
+                        <span data-feather="user"></span>
+                        Ikaskutza sakona
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="d-block d-sm-none d-md-none d-lg-none d-xl-none">
+                  <a class="  nav-link  dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <span data-feather="archive"> </span>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="artean-lan-poltsa">
+                      <div class="d-block d-sm-none d-md-none d-lg-none d-xl-none">
+                        <span data-feather="archive"></span>
+                      </div>
+                    </a>
+                    <a class="dropdown-item" href="where-is-my-car">
+                      <div class="d-block d-sm-none d-md-none d-lg-none d-xl-none">
+                        <span data-feather="map"></span>
+                      </div>
+                    </a>
+                    <a class="dropdown-item" href="ionic-sound-recorder">
+                      <div class="d-block d-sm-none d-md-none d-lg-none d-xl-none">
+                        <span data-feather="music"></span>
+                      </div>
+                    </a>
+                    <a class="dropdown-item" href="https://afrago.github.io/dl-upna-face-recognition/">
+                      <div class="d-block d-sm-none d-md-none d-lg-none d-xl-none">
+                        <span data-feather="user"></span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
               </li>
-             
+
+
             </ul>
           </div>
         </nav>
@@ -135,7 +159,7 @@
         {{ content }}
       </section>
 
-     
+
     </div>
   </div>
 
@@ -153,26 +177,30 @@
   {% endif %}
   <script src="{{ 'assets/js/feather.min.js' }}"></script>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
   <script>
     feather.replace();
   </script>
- <script>
-  $(function(){
-    $('.navbar-toggler').click(function(){
-      if ($('aside').hasClass('d-none')){
-        $('aside').removeClass('d-none').addClass('d-block');
-        $('section').removeClass('col-12 ').addClass('col-6 ');
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        if ($('aside').hasClass('d-none')) {
+          $('aside').removeClass('d-none').addClass('d-block');
+          $('section').removeClass('col-12 ').addClass('col-6 ');
 
-      } else {
-        $('aside').removeClass('d-block').addClass('d-none');
-        $('section').removeClass('col-6 ').addClass('col-12');
+        } else {
+          $('aside').removeClass('d-block').addClass('d-none');
+          $('section').removeClass('col-6 ').addClass('col-12');
 
-      }
-    })
-  });
-</script>
+        }
+      })
+    });
+  </script>
 </body>
 
 </html>

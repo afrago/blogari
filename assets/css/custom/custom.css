@@ -1,48 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap");
-/* line 3, ../../../_sass/custom/_mylayout.scss */
-body {
-  background: -webkit-linear-gradient(to top left, #8A9999, #dfe9e9);
-  background: -moz-linear-gradient(to top left, #8A9999, #dfe9e9);
-  background: -o-linear-gradient(to top left, #8A9999, #dfe9e9);
-  background: linear-gradient(to top left, #8A9999, #dfe9e9);
-}
 /* line 5, ../../../_sass/custom/_mylayout.scss */
 body a {
   color: #521a15 !important;
 }
 
-/* line 11, ../../../_sass/custom/_mylayout.scss */
+/* line 9, ../../../_sass/custom/_mylayout.scss */
+section {
+  background: -webkit-linear-gradient(to top left, #00b5b0, white);
+  background: -moz-linear-gradient(to top left, #00b5b0, white);
+  background: -o-linear-gradient(to top left, #00b5b0, white);
+  background: linear-gradient(to top left, #00b5b0, white);
+}
+
+/* line 13, ../../../_sass/custom/_mylayout.scss */
 .my4Vientos-header {
   background-image: url("./../../images/header-bg.png");
   background-size: cover;
 }
-/* line 14, ../../../_sass/custom/_mylayout.scss */
+/* line 16, ../../../_sass/custom/_mylayout.scss */
 .my4Vientos-header a {
   padding-left: 15%;
 }
 
-/* line 21, ../../../_sass/custom/_mylayout.scss */
+/* line 23, ../../../_sass/custom/_mylayout.scss */
 .my4Vientos-subject h1.my4Vientos-title {
   color: black;
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 26, ../../../_sass/custom/_mylayout.scss */
+/* line 28, ../../../_sass/custom/_mylayout.scss */
 .my4Vientos-level {
   display: flex;
   align-items: center;
   flex-direction: row;
   color: #3D4D4D;
 }
-/* line 32, ../../../_sass/custom/_mylayout.scss */
+/* line 34, ../../../_sass/custom/_mylayout.scss */
 .my4Vientos-level img.my4Vientos-img {
   max-width: 5rem;
   padding: 1rem;
 }
 
-/* line 37, ../../../_sass/custom/_mylayout.scss */
+/* line 39, ../../../_sass/custom/_mylayout.scss */
 .my4Vientos-subtitle {
   float: none;
   text-align: left;
@@ -53,7 +54,7 @@ body a {
 /*
  * Sidebar
  */
-/* line 52, ../../../_sass/custom/_mylayout.scss */
+/* line 54, ../../../_sass/custom/_mylayout.scss */
 .sidebar-sticky {
   background-image: url("./../../images/sidebar-bg.jpg");
   background-size: cover;
@@ -68,17 +69,17 @@ body a {
   overflow-y: auto;
   /* Scrollable contents if viewport is shorter than content. */
 }
-/* line 68, ../../../_sass/custom/_mylayout.scss */
+/* line 70, ../../../_sass/custom/_mylayout.scss */
 .sidebar-sticky .list-group-item {
   background-color: transparent !important;
   border: 0ch;
 }
-/* line 72, ../../../_sass/custom/_mylayout.scss */
+/* line 74, ../../../_sass/custom/_mylayout.scss */
 .sidebar-sticky .list-group-item .nav-link {
   font-size: large;
   color: #101414 !important;
 }
-/* line 75, ../../../_sass/custom/_mylayout.scss */
+/* line 77, ../../../_sass/custom/_mylayout.scss */
 .sidebar-sticky .list-group-item .nav-link:hover {
   color: white !important;
 }

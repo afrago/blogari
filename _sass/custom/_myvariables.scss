@@ -9,9 +9,9 @@ $my-link-color: darken($my-accent-color,20%);
 $my-link-hover-color: $my-accent-color;
 
 
-$my-sidebar-color: #dfe9e9;
+$my-sidebar-color: #00b5b0;
 $nav-child-link-color: darken($my-primary-color, 20%) ;
 
-$list2: #8A9999, $my-sidebar-color; 
+$list2: $my-sidebar-color,  white; 
 
 

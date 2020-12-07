@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 
 body {
-   @include gradient(to top left , $list2);
+  
    a {
     color: $my-link-color !important;
   }
 }
-
+section{
+ @include gradient(to top left , $list2);
+}
 
 .my4Vientos-header {
    background-image: url('./../../images/header-bg.png'); 
