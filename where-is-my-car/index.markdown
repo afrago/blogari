@@ -21,8 +21,11 @@ kokaleku zaharrak.
 
 <div class="container">
     <div class="row">
-        <div class="col-4 mx-auto">
-            <img src="{{ 'assets/images/where-is-my-car-removebg.png' }}" >
+        <div class="col-4 ">
+            <img class="img-fluid" src="{{ 'assets/images/where-is-my-car-removebg.png' }}" >
+        </div>
+        <div class="col-4">
+            <a class="btn btn-outline-success" href="{{ 'assets/apps/where-is-my-car.apk' }}"  download>Deskargatu APK</a>
         </div>
     </div>
 </div>

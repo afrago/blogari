@@ -8,6 +8,14 @@ body {
 }
 section{
  @include gradient(to top left , $list2);
+
+ min-height: calc(100vh);
+}
+.btn-primary {
+ // background-color: $my-primary-color;
+  &:hover{
+    background-color: $my-primary-color;
+  }
 }
 
 .my4Vientos-header {

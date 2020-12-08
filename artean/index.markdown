@@ -27,7 +27,7 @@ Hona hemen **web garapen** moduluan bigarren hiruhilekokoan erabilitako produktu
 <div class="container">
     <div class="row">
         <div class="col-4 mx-auto">
-            <img src="{{ 'assets/images/artean-removebg.png' }}" >
+            <img class="img-fluid"  src="{{ 'assets/images/artean-removebg.png' }}" >
         </div>
     </div>
 </div>
